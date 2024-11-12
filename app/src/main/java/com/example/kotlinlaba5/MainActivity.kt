@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private val myViewModel: ViewModel.MyViewModel by viewModels()
-    
+
     private lateinit var editTextNumber: EditText
     private lateinit var buttonStart: Button
     private lateinit var button92: RadioButton
@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-
 
     }
 }
