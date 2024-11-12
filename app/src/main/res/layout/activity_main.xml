@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:text="Количество литров"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096
+" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:text="Количество литров"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096
+" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="214dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:inputType="number"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
+
+    <RadioGroup
+        android:layout_width="212dp"
+        android:layout_height="148dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355">
+
+        <RadioButton
+            android:id="@+id/radioButton92"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="92           50 руб." />
+
+        <RadioButton
+            android:id="@+id/radioButton95"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="95           55 руб." />
+
+        <RadioButton
+            android:id="@+id/radioButton98"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="98           57 руб." />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="156dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Марка бензина"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
