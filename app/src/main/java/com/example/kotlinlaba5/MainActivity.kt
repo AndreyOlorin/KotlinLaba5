@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         var button92 = findViewById<RadioButton>(R.id.radioButton92)
         var button95 = findViewById<RadioButton>(R.id.radioButton95)
         var button98 = findViewById<RadioButton>(R.id.radioButton98)
+        var button75 = findViewById<RadioButton>(R.id.radioButton75)
 
 
 
@@ -35,6 +36,7 @@ class MainActivity : AppCompatActivity() {
                 button92.isChecked -> true
                 button95.isChecked -> true
                 button98.isChecked -> true
+                button75.isChecked -> true
                 else -> false
             }
 
@@ -44,6 +46,7 @@ class MainActivity : AppCompatActivity() {
                     button92.isChecked -> 50 * editTextNumber.text.toString().toInt()
                     button95.isChecked -> 55 * editTextNumber.text.toString().toInt()
                     button98.isChecked -> 57 * editTextNumber.text.toString().toInt()
+                    button75.isChecked -> 45 * editTextNumber.text.toString().toInt()
                     else -> 0
                 }
 
